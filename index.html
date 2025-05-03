@@ -443,15 +443,11 @@
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>NAVSEA</button>
-            </li>
-
-            <li class="filter-item">
               <button data-filter-btn>TAMG</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Centrifugal Nuclear Thermal Rocket</button>
+              <button data-filter-btn>CNTR</button>
             </li>
 
           </ul>
@@ -475,15 +471,11 @@
               </li>
 
               <li class="select-item">
-                <button data-select-item>NAVSEA</button>
-              </li>
-
-              <li class="select-item">
                 <button data-select-item>TAMG</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Centrifugal Nuclear Thermal Rocket</button>
+                <button data-select-item>CNTR</button>
               </li>
 
             </ul>
@@ -495,10 +487,10 @@
             <li class="project-item  active" data-filter-item data-category="all">
               <a href="#">
                 <iframe 
-                  src="./assets/Project Portfolio.pdf#view=FitH" 
+                  src="./assets/Project Portfolio.pdf#view=FitH&toolbar=0&navpanes=0&scrollbar=0" 
                   width="100%" 
                   height="100%"
-                  style="min-height: 33vh; border-radius: 0.5rem; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"  
+                  style="min-height: 25vh; border-radius: 0.5rem; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"  
                   frameborder="0"
                   class="rounded"
                   >
@@ -509,24 +501,6 @@
                 <h3 class="project-title">Research Overview</h3>
 
                 <p class="project-category">All</p>
-              </a>
-            </li>
-            
-            <li class="project-item  active" data-filter-item data-category="navsea">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/shap_data.png" alt="Model explainability study" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">ML Model Explainability Study</h3>
-
-                <p class="project-category">NAVSEA</p>
-
               </a>
             </li>
 
@@ -556,12 +530,30 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/3DP_monitoring_fig.png" alt="Realtime 3D Print Monitoring" loading="lazy">
+                  <img src="./assets/images/3DP_monitoring_thumbnail.png" alt="Realtime 3D Print Monitoring" loading="lazy">
                 </figure>
 
                 <h3 class="project-title">Realtime 3D Print Monitoring</h3>
 
                 <p class="project-category">TAMG</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="cntr">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/CNTR Poster.jpg" alt="CNTR Poster" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">NASA: Senior Design Capstone</h3>
+
+                <p class="project-category">CNTR</p>
 
               </a>
             </li>
@@ -584,12 +576,22 @@
               </a>
             </li>
 
-            
-
           </ul>
 
         </section>
 
+
+        <div class="project-detail-overlay" id="projectDetailOverlay">
+          <section class="project-detail-card">
+            <button class="back-button" id="backButton">
+              <ion-icon name="arrow-back-outline"></ion-icon>
+            </button>
+            <div id="projectDetailContent">
+              <!-- Dynamic content will be injected here -->
+            </div>
+          </section>
+        </div>
+            
       </article>
 
 
@@ -789,6 +791,7 @@
               <h5 class="h5">Data Visualization (Dash, Matplotlib, PowerBI, Tableau)</h5><br>
               <h5 class="h5">Docker Containerization</h5><br>
               <h5 class="h5">GitHub Version Control</h5><br>
+              <h5 class="h5">Hugging Face</h5><br>
               <h5 class="h5">Unity</h5>
             </li>
           </ul>

@@ -1275,7 +1275,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .project-img,
   .blog-banner-box { height: auto; }
-
+  
 }
 
 
@@ -1905,4 +1905,121 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .timeline-text { max-width: 700px; }
 
+}
+
+/*Custom Headings*/
+.project-detail-heading {
+  color: var(--title-text)
+}
+
+.project-detail-subheading {
+  color: var(--timeline-dates)
+}
+
+.fig-caption {
+  text-align: center;
+}
+
+/*Figure Formatting*/
+.project-figures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.project-figures figure {
+  flex: 1 1 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+}
+
+.project-figures img {
+  height: 380px; /* Fixed height for both images */
+  width: auto; /* Keep natural aspect ratio */
+  object-fit: cover; /* Zoom and crop if needed to fill */
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-figures figcaption {
+  text-align: center;
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-top: 0.5rem;
+}
+
+/*Project Detail Page*/
+
+.project-detail-overlay {
+  position: absolute;
+  top: 100px; /* below navbar and title */
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: calc(100% - 100px);
+  background: var(--main-card-fill);
+  border-radius: 20px;
+  box-shadow: var(--shadow-3);
+  padding: 20px;
+  transform: translateY(100%);
+  transition: transform 0.4s ease-in-out;
+  z-index: 10;
+  display: none;
+  overflow-y: auto;
+}
+
+.project-detail-overlay.active {
+  display: block;
+  transform: translateY(0);
+}
+
+.project-detail-card {
+  max-width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  /* align-items: center; */
+}
+
+.back-button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: var(--position-title-fill);
+  border-radius: 8px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--title-text);
+  font-size: 18px;
+  z-index: 20;
+}
+
+#projectDetailContent {
+  margin-top: 50px;
+  color: var(--light-bkgd-text);
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+@media (max-width: 768px) {
+  .project-detail-overlay {
+    border-radius: 0;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 430px) {
+  .project-detail-overlay {
+    top: 1000px;
+    width: 100%;
+    height: calc(100% - 1000px);
+  }
 }
