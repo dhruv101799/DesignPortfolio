@@ -217,17 +217,7 @@ const projectDetails = {
         <h3 class="project-detail-subheading">ASME IMECE Challenge Poster</h4>
         <p>Below is a poster that was developed for a design challenge, documenting our iterative digital engineering process to create a functional prototype.</p><br>
         <div>
-            <iframe 
-            src="assets/images/Dragon Resuscitator - IMECE Poster.pdf#view=FitH&toolbar=0&navpanes=0&scrollbar=0" 
-            width="100%" 
-            height="100%"
-            style="min-height: 56vh; border-radius: 0.5rem; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"  
-            frameborder="0"
-            class="rounded"
-            >
-            This browser does not support PDFs. Please download the PDF to view it: 
-            <a href="assets/images/Dragon Resuscitator - IMECE Poster.pdf">Download PDF</a>.
-            </iframe>
+            <img src="assets/images/Dragon Resuscitator - IMECE Poster.jpg" alt="Dragon Resuscitator IMECE Poster" width="100%" height="auto">
         </div><br>
         
         <h3 class="project-detail-subheading">Product Commercial</h4>
@@ -296,18 +286,8 @@ const projectDetails = {
         
         <p>This poster details a summer research project I did to develop a closed-loop monitoring system for FDM 3D printers. I used acoustic emission sensors to monitor the system and identify abnormal states such as material jams, part warping, etc.</p><br>
         <div>
-            <iframe 
-            src="assets/images/StarPoster.pdf#view=FitH&toolbar=0&navpanes=0&scrollbar=0" 
-            width="100%" 
-            height="100%"
-            style="min-height: 56vh; border-radius: 0.5rem; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"  
-            frameborder="0"
-            class="rounded"
-            >
-            This browser does not support PDFs. Please download the PDF to view it: 
-            <a href="assets/images/StarPoster.pdf">Download PDF</a>.
-            </iframe>
-        </div>
+            <img src="assets/images/Star Scholars Poster - Dhruv Shah.jpg" alt="Star Scholars Poster" width="100%" height="auto">
+        </div><br>
       </div>
     </div>
   `,
@@ -337,17 +317,7 @@ const projectDetails = {
         <h3 class="project-detail-subheading">CNTR Project Poster</h4>
         <p>A component of our final senior design curriculum was to create a physical prototype and present our results to a panel of judges. We received 2nd place in a competition with other teams across the College of Engineering.</p><br>
         <div>
-            <iframe 
-            src="assets/images/CNTR Poster.pdf#view=FitH&toolbar=0&navpanes=0&scrollbar=0" 
-            width="100%" 
-            height="100%"
-            style="min-height: 56vh; border-radius: 0.5rem; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"  
-            frameborder="0"
-            class="rounded"
-            >
-            This browser does not support PDFs. Please download the PDF to view it: 
-            <a href="assets/images/CNTR Poster.pdf">Download PDF</a>.
-            </iframe>
+            <img src="assets/images/CNTR Poster.jpg" alt="CNTR Poster" width="100%" height="auto">
         </div><br>
 
         <h3 class="project-detail-subheading">Published Work</h4>
