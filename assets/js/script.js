@@ -296,17 +296,7 @@ const projectDetails = {
         
         <p>This poster details a summer research project I did to develop a closed-loop monitoring system for FDM 3D printers. I used acoustic emission sensors to monitor the system and identify abnormal states such as material jams, part warping, etc.</p><br>
         <div>
-            <iframe 
-            src="assets/images/Star Scholars Poster - Dhruv Shah.pdf#view=FitH&toolbar=0&navpanes=0&scrollbar=0" 
-            width="100%" 
-            height="100%"
-            style="min-height: 56vh; border-radius: 0.5rem; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"  
-            frameborder="0"
-            class="rounded"
-            >
-            This browser does not support PDFs. Please download the PDF to view it: 
-            <a href="assets/images/Star Scholars Poster - Dhruv Shah.pdf">Download PDF</a>.
-            </iframe>
+            <img src="assets/images/STAR Scholars Poster - Dhruv Shah.jpg" title="Star Scholars Poster" width="100%" height="auto"> 
         </div>
       </div>
     </div>
