@@ -294,7 +294,7 @@ const projectDetails = {
         <h2 class="text-xl font-semibold text-gray-800">FDM 3D Printer Monitoring</h2>
         <p class="text-gray-600">STAR Scholars Research Program</p><br>
         
-        <p>This poster details a summer research project I did to develop a closed-loop monitoring system for FDM 3D printers. I used acoustic emission sensors to monitor the system and identify abnormal states such as material jams, part warping, etc.</p><br>           
+        <p>This poster details a summer research project I did to develop a closed-loop monitoring system for FDM 3D printers. I used acoustic emission sensors to monitor the system and identify abnormal states such as material jams, part warping, etc.</p><br>
         <div>
             <iframe 
             src="assets/images/Star Scholars Poster - Dhruv Shah.pdf#view=FitH&toolbar=0&navpanes=0&scrollbar=0" 
