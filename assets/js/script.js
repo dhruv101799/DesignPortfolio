@@ -286,7 +286,7 @@ const projectDetails = {
         
         <p>This poster details a summer research project I did to develop a closed-loop monitoring system for FDM 3D printers. I used acoustic emission sensors to monitor the system and identify abnormal states such as material jams, part warping, etc.</p><br>
         <div>
-            <img src="assets/images/3DP_acoustic_fig.png" alt="Star Scholars Poster" width="100%" height="auto">
+            <img src="assets/images/STAR_POSTER.jpg" alt="Star Scholars Poster" width="100%" height="auto">
         </div><br>
       </div>
     </div>
